@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Home</title>
+    <style>
+        .container{
+            
+        
+
+        }
+        #st{
+             margin: 10px;
+             width: 400px;
+             position: absolute;
+             top: 20px;
+             left: 20px;
+             color: white;
+        
+          }
+         #nd{ 
+            /* border: brown solid 2px; */
+             margin: 0px;
+             width: 500px;
+             text-align: center;
+             position: absolute;
+             left: 700px;
+             top: 20px;
+             
+            
+             }
+        #rd{ position: absolute;
+            border: brown solid 2px;
+            width: 200px;
+            right: 20px;
+            top: 20px;
+            color: white; 
+            
+            }
+            .abhi1{
+                list-style: none;
+                text-align: left;
+                
+            
+
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            .abhi{
+                width: 50px;
+                display:inline-block;
+                margin: 10px;
+                background-color: rgb(223, 178, 119);
+                border: rgb(107, 202, 226) ;
+                border-radius: 10px;
+                padding: 5px;}
+                img{
+                    width: 100%;
+                    height: 700px;
+                    z-index: -1;
+                }
+                .abhi:hover{
+                    background-color:white;
+                    color:black;
+                }
+                h1{ font-family: 'Pacifico', cursive;
+                font-size: 55px;
+
+
+
+    
+}
+.fa-plane-departure{
+    color: rgb(223, 151, 69);
+    font-size: 55px;
+}
+.footer{
+      width: 100%;
+      height: 200px;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      
+      justify-content: space-evenly;
+  }
+  .footer1{
+    width: 50px;
+    height: 60px;
+    background-color:rgb(73, 116, 233);
+   
+   transition: .4s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   transform: perspective(600px) rotate(-40deg) skewX(-20deg);
+}
+.footer1::before{
+    position: absolute;
+    content: " ";
+    width: 10px;
+    height: 60px;
+    left: -10px;
+    top: 2px;
+    transform:  skewY(-35deg);
+    background-color: white;
+    
+
+   
+}
+.fa-facebook-f{
+    color: white;
+    font-size: 45px;
+}
+.footer1::after{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 7px;
+    top: 60px;
+    left: -5px;
+    transform:  skewX(-50deg);
+    background-color: white;
+    
+
+   
+}
+.footer1:hover{
+    width: 50px;
+    height: 60px;
+    background-color:rgb(73, 116, 233);
+    
+   
+   transform: perspective(600px) rotate(-40deg) skewX(-20deg) translate(30px,-30px);
+}
+
+.footer2{
+    width: 50px;
+    height: 60px;
+    background-color: black;
+    background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   transition: .4s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform: perspective(600px) rotate(-40deg) skewX(-20deg);
+}
+.fa-instagram{
+    color: white;
+    font-size: 45px;
+}
+.footer2::before{
+    position: absolute;
+    content: " ";
+    width: 10px;
+    height: 60px;
+    left: -10px;
+    top: 2px;
+    transform:  skewY(-35deg);
+    
+    background-color: white;
+   
+}
+.footer2::after{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 7px;
+    top: 60px;
+    left: -5px;
+    transform:  skewX(-50deg);
+    
+    background-color: white; 
+   
+}
+.footer2:hover{
+    width: 50px;
+    height: 60px;
+    background-color: black;
+    background-color:lightblue;
+   transform: perspective(600px) rotate(-40deg) skewX(-20deg) translate(30px,-30px);
+}
+.footer3{
+    width: 50px;
+    height: 60px;
+    background-color: black;
+    background-color:blue;
+display: flex;
+justify-content: center;
+align-items: center;
+   transition: .4s;
+   transform: perspective(600px) rotate(-40deg) skewX(-20deg);
+}
+.fa-twitter{
+    color: white;
+    font-size: 45px;
+}
+.fa-google{
+    color: white;
+    font-size: 45px;
+}
+.footer3::before{
+    position: absolute;
+    content: " ";
+    width: 10px;
+    height: 60px;
+    left: -10px;
+    top: 2px;
+    transform:  skewY(-35deg);
+    
+    background-color: white;
+   
+}
+.footer3::after{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 7px;
+    top: 60px;
+    left: -5px;
+    transform:  skewX(-50deg);
+    
+    background-color: white; 
+   
+}
+.footer3:hover{
+    width: 50px;
+    height: 60px;
+    
+    
+   transform: perspective(600px) rotate(-40deg) skewX(-20deg) translate(30px,-30px);
+}
+.footer4{
+    width: 50px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    background-color:lightblue;
+    justify-content: center;
+    align-items: center;
+   transition: .4s;
+   transform: perspective(600px) rotate(-40deg) skewX(-20deg);
+}
+.footer4::before{
+    position: absolute;
+    content: " ";
+    width: 10px;
+    height: 60px;
+    left: -10px;
+    top: 2px;
+    transform:  skewY(-35deg);
+    
+    background-color: white;
+   
+}
+.footer4::after{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 7px;
+    top: 60px;
+    left: -5px;
+    transform:  skewX(-50deg);
+    
+    background-color: white; 
+   
+}
+.footer4:hover{
+    width: 50px;
+    height: 60px;
+    background-color: black;
+    background-color:green;
+   transform: perspective(600px) rotate(-40deg) skewX(-20deg) translate(30px,-30px);
+}
+.before{
+      width: 100%;
+      height: 200px;
+      background-color: black;
+      color: white;
+  }
+  .now1{
+      width: 100%;
+      height: 320px;
+      display: flex;
+      justify-content: center;
+      align-items:center ;
+      background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .now11{
+      width: 300px;
+      height: 300px;
+      background-image: url(beach2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 300px 300px;
+      margin: 10px;
+  }
+  .now12{
+      width: 300px;
+      height: 320px;
+      background-image: url(beach3.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 300px 300px;
+      margin: 10px;
+  }
+  .now13{
+    width: 300px;
+      height: 320px;
+      background-image: url(anshuback2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 300px 300px;
+      margin: 10px;
+    
+  }
+  .now2{
+      width: 100%;
+      height: 320px;
+      display: flex;
+      justify-content: center;
+      align-items:center ;
+      background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .now21{
+      width: 300px;
+      height: 300px;
+      background-image: url(london.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 300px 300px;
+      margin: 10px;
+  }
+  .now22{
+      width: 300px;
+      height: 320px;
+      background-image: url(anshuback1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 300px 300px;
+      margin: 10px;
+  }
+  .now23{
+    width: 300px;
+      height: 320px;
+      background-image: url(anshuback4.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 300px 300px;
+      margin: 10px;
+    
+  }
+
+
+               
+        
+        
+        
+        
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="europe.jpg" alt="">
+    
+    <div id="st"><h1>World<i class="fas fa-plane-departure"></i> Tour </h1> </div>
+
+    <div id="nd">
+        <ul  class="abhi1">
+            <li class="abhi">Home</li>
+            <li class="abhi"><a href="service.html" target="_blank">Service</a></li>
+            <li class="abhi"><a href="about.html" target="_blank">About</a></li>
+            <li class="abhi"><a href="booking.html" target="_blank">Booking</a> </li>
+            <li class="abhi"><a href="tour.html" target="_blank">Tour</a> </li>
+        </ul>
+    </div>
+    <div class="now1">
+        <div class="now11"></div>
+        <div class="now12"></div>
+        <div class="now13"></div>
+    </div>
+    <div class="now2">
+        <div class="now21"></div>
+        <div class="now22"></div>
+        <div class="now23"></div>
+    </div>
+    
+
+</div>
+<div class="before">
+    <h3 style="font-size: 33px; text-align: center; margin-bottom: 4px;"> follow us at below given sites</h2>
+        <p style="font-size: 17px; text-align: center; margin-top: 0px;">we are here to help you to any kind of information related to tour</p>
+        <p style="font-size: 17px; text-align: center; margin-top: 0px;">if you want more luxury during tour then there are some rule</p>
+        <p style="font-size: 17px; text-align: center; margin-top: 0px;">for more information you can call us at-8957283377</p>
+
+</div> 
+<div class="footer">
+    <div class="footer1"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+    <div class="footer2"><a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> </div>
+    <div class="footer3"><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a></div>
+    <div class="footer4"><i class="fab fa-google"></i></div>
+</div>
+<script type="text/javascript" src="service.js"></script>
+    
+</body>
+</html>

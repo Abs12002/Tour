@@ -1,0 +1,18 @@
+.header{
+    width: 100%;
+height: 70px;
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.head1{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.head2{
+    width: 500px;
+
+}

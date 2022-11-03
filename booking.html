@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="booking.js"> </script>
+    <title>booking</title>
+    <style>
+        *{
+            margin: 0px ;
+            padding: 0px;
+        }
+        .container{
+            width: 100%;
+            height: 700px;
+            
+            background-image: url(anshuback2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 1560px 800px ;
+            margin-top: 0px;
+        }
+        .inside{
+            width: 800px;
+            height: 600px;
+            position: relative;
+            left: 300px;
+            color: white;
+            
+            top: 0px;
+            
+            z-index: 2;
+            
+        }
+         .foo{
+             width: 100%;
+             height: 500px;
+         
+         }
+         .foo1{
+             width: 100%;
+             height: 130px;
+             background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+             
+             justify-content: center;
+             align-items: center;
+         
+         }
+         .foo2{
+             width: 100%;
+             height: 240px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         
+         }
+         .foo3{
+             width: 100%;
+             height: 130px;
+             background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+             display: flex;
+             justify-content: space-around;
+             align-items: center;
+         
+         }
+        
+    tr{
+        width: 50px;
+        height: 55px;
+
+    }
+    td{
+        margin: 30px;
+    }
+    input{
+        text-decoration: none;
+        border: 0px;
+        width: 150px;
+        height: 40px;
+        border-radius: 8px;
+    }
+    .head1{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    
+
+}
+h1{ font-family: 'Pacifico', cursive;
+position: relative;
+top: 30px;
+
+    
+}
+.fa-plane-departure{
+    color: rgb(223, 151, 69);
+}
+.header{
+    width: 100%;
+    height: 100px;
+    border: 1px solid;
+    z-index: 2;
+    display: flex;
+    margin-bottom: 0px;
+    align-items: flex-end   ;
+    background-color: black;
+    
+}
+ 
+#su{
+    background-color: orange;
+    color: white;
+}
+#re{
+    background-color: blue;
+    color: white;
+}
+.foo31{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.foo32{ width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid white;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;}
+.foo33{ width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid white;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;}
+    .foo4{
+        width: 100%;
+        height: 200px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        z-index: 2;
+        
+        
+    }
+    
+    
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="head1">
+            <h1>World<i class="fas fa-plane-departure"></i> Tour</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="inside">
+            <h2><u> Booking Details</u></h2>
+            
+            
+                <table>
+                  <form action=""> 
+                <tr>
+                    <td><label for="from">From</label></td><td><input type="text" name="" id="from"></td>
+                    <td><label for="to">To</label></td><td><input type="text" name="" id="to"></td>
+                    
+                </tr>
+                
+            
+                <tr>
+                    <td><label for="tour">Tour Type</label></td><td><input type="text" name="" id="tour"></td>
+                    <td><label for="con">Country</label></td><td><input type="text" name="" id="con"></td>
+                    
+                </tr>
+                
+                <tr>
+                    <td><label for="ad">Adult</label></td><td><input type="number" name="" id="ad"></td>
+                    <td><label for="ch">Child</label></td><td><input type="number" name="" id="ch"></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="dep">Departure Date</label></td><td><input type="date" name="" id="dep"></td>
+                    <td><label for="dept">Departure Time</label></td><td><input type="time" name="" id="dept"></td>
+                    
+                </tr>
+                <tr>
+                    <td>Select Your Fare</td>
+                <td><input type="radio" name=" tr" id="dept">One WaY </td><td><input type="radio" name=" tr" id="dept">Round Way</td>
+                    
+                </tr>
+               
+                <tr><td><h2><u> Personal Details</u></h2></td></tr>
+                <tr>
+                    <td><label for="name">Full Name</label></td><td><input type="text" name="" id="name"></td>
+                    <td><label for="conta">Contact</label></td><td><input type="number" name="" id="conta"></td>
+                     
+                </tr>
+                
+                <tr>
+                    <td><label for="eml">Email</label></td><td><input type="email" name="" id="em"></td>
+                    
+                </tr>
+                
+                <tr>
+                    <td><input type="submit" value="Submit" id="su"></td><td><input type="reset" value="Reset" id="re"></td>
+                </tr>
+            </form> 
+                </table>
+            
+
+        </div>
+    </div>
+    <div class="foo">
+        <div class="foo1">
+            <h2 style="text-align: center; color: white;">A Much Reliable Website For Your Tour  </h2>
+
+            <p style="text-align: center; color: white;">touring the world is like exploring your self </p>
+        </div>
+        <div class="foo2"><i class="fas fa-cannabis" style="font-size: 200px; color: orange;"></i></div>
+        <div class="foo3">
+            <div class="foo31">
+                01 WORLD
+            </div>
+            <div class="foo32">
+                02 NATURE
+            </div>
+            <div class="foo33"> 03 TOUR</div>
+        </div>
+    </div>
+    <div class="foo4">
+        <h2>For more information you can call us- 8957283377</h2>
+    </div>
+
+    <script type="text/javascript" src="booking.js"> </script>
+    
+</body>
+</html>
